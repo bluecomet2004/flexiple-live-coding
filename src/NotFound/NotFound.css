@@ -1,0 +1,13 @@
+.NotFound {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 1rem 2rem;
+    height: 21rem;
+}
+
+.NotFound__content {
+    text-align: center;
+    font-size: 2rem;
+}

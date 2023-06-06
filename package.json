@@ -1,0 +1,48 @@
+{
+  "name": "devskiller-react-conference-admin-panel",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.4.3",
+    "axios": "^0.27.2",
+    "axios-mock-adapter": "^1.21.2",
+    "classnames": "^2.3.2",
+    "flush-promises": "^1.0.2",
+    "jest-junit": "^14.0.1",
+    "normalize.css": "^8.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^5.3.3",
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom --testResultsProcessor='jest-junit' --verbose",
+    "test:watch": "react-scripts test --env=jsdom --verbose"
+  },
+  "jest-junit": {
+    "outputName": "./test-results.xml",
+    "suiteName": "jest tests",
+    "suiteNameTemplate": "{filepath}",
+    "classNameTemplate": "{classname}",
+    "titleTemplate": "{title}",
+    "ancestorSeparator": " › "
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

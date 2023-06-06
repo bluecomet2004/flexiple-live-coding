@@ -1,0 +1,13 @@
+.Loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 15rem;
+}
+
+.Loading__content {
+    text-align: center;
+    font-size: 2rem;
+    color: #898989;
+}
