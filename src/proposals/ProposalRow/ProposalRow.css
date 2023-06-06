@@ -1,0 +1,104 @@
+.ProposalRow {
+    position: relative;
+    display: block;
+
+    padding: 1rem 2rem;
+    border-radius: 2px;
+
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.ProposalRow:active,
+.ProposalRow:focus,
+.ProposalRow:hover {
+    background-color: #f3f3f3;
+    z-index: 1;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.ProposalsRow__status_indicator {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1rem;
+    height: 100%;
+
+    background-color: #f3f3f3;
+}
+
+.ProposalRow--accepted .ProposalsRow__status_indicator {
+    background-color: #36dd84;
+}
+
+.ProposalRow--rejected .ProposalsRow__status_indicator {
+    background-color: #e5958e;
+}
+
+.ProposalsRow__title {
+    display: inline-block;
+    border-bottom: 2px solid #6059c4;
+    padding-bottom: .5rem;
+}
+
+.ProposalsRow__speaker {
+    padding: .5rem 0;
+    font-weight: bold;
+}
+
+.ProposalsRow__category {
+    padding: .5rem 0;
+}
+
+.ProposalsRow__status {
+    padding: .5rem 0;
+}
+
+.ProposalsRow__accept_button_placeholder,
+.ProposalsRow__reject_button_placeholder {
+    display: inline-block;
+
+    box-sizing: border-box;
+    line-height: 2rem;
+    width: 5rem;
+
+    text-align: center;
+    color: #e2e1e0;
+
+    border: 0;
+    background-color: #f3f3f3;
+}
+
+.ProposalsRow__accept_button,
+.ProposalsRow__reject_button {
+    display: inline-block;
+
+    box-sizing: border-box;
+    padding: 0 .5rem;
+    line-height: 2rem;
+    width: 5rem;
+
+    text-align: center;
+    cursor: pointer;
+
+    border: 0;
+}
+
+.ProposalsRow__accept_button {
+    background-color: #36dd84;
+}
+
+.ProposalsRow__reject_button {
+    background-color: #e5958e;
+}
+
+.ProposalsRow__accept_button:active,
+.ProposalsRow__accept_button:focus,
+.ProposalsRow__accept_button:hover {
+    background-color: #36dd84;
+}
+
+.ProposalsRow__reject_button:active,
+.ProposalsRow__reject_button:focus,
+.ProposalsRow__reject_button:hover {
+    background-color: #e5958e;
+}

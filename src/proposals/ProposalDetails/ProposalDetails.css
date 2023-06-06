@@ -1,0 +1,39 @@
+.ProposalDetails__speaker {
+    float: left;
+    width: 50%;
+    margin: 1rem 0;
+}
+
+.ProposalDetails__speaker__value {
+    font-weight: bold;
+}
+
+.ProposalDetails__category {
+    float: left;
+    width: 50%;
+    margin: 1rem 0;
+}
+
+.ProposalDetails__category__value {
+    font-weight: bold;
+}
+
+.ProposalDetails__description {
+    float: left;
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.ProposalDetails__description__value {
+    font-weight: bold;
+}
+
+.ProposalDetails__description p {
+    margin: .5rem 0;
+    line-height: 1.4;
+}
+
+.ProposalDetails__description p:first-of-type,
+.ProposalDetails__description p:last-of-type {
+    margin: 0 0;
+}

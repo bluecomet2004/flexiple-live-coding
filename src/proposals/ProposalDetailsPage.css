@@ -1,0 +1,34 @@
+.ProposalDetailsPage__content {
+    display: flex;
+    flex-direction: column;
+
+    padding: 0 2rem 1rem;
+}
+
+.ProposalDetailsPage__back {
+    display: inline-block;
+
+    padding-right: .5rem;
+    line-height: 2rem;
+
+    color: #898989;
+    text-decoration: none;
+}
+
+.ProposalDetailsPage__back:active,
+.ProposalDetailsPage__back:focus,
+.ProposalDetailsPage__back:hover {
+    color: #f3f3f3;
+    background-color: #6059c4;
+}
+
+.ProposalDetailsPage__back:before {
+    content: "<";
+    padding-right: 0.2rem;
+}
+
+.ProposalDetailsPage__back:active:before,
+.ProposalDetailsPage__back:focus:before,
+.ProposalDetailsPage__back:hover:before {
+    color: #6059c4;
+}

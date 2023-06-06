@@ -1,0 +1,9 @@
+.DetailsSection__name {
+    display: inline-block;
+    border-bottom: 2px solid #6059c4;
+    padding-bottom: .5rem;
+}
+
+.DetailsSection__content {
+    padding-top: .5rem;
+}
